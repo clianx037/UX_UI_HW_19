@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <link href="CSS/index.css" rel="stylesheet" type="text/css">
+        <title>Portfolio Website</title>
+    </head>
+    <header class="header">
+            <p class="title">Christine Lian </p>
+            <ul>
+              <li><a><b>Contact</b></a></li>
+              <li><a><b>Work</b></a></li>
+              <li><a><b>Skills</b></a></li>
+              <li><a><b>About</b></a></li>
+            </ul>
+    </header>
+    <body>
+        <section class ="body" >
+        <div class="row">
+          <div class="column">
+            <img class="herolmg" src="Images/me.png" width="230" height="200"> 
+            </div>          
+            <h1 id="hi">Hi, I'm Christine</h1>
+            <div class="ptext"
+              <p>I am a user experience and user interface designer based out of Minneapolis. My skills include project ideation, wireframing and low to high fidelity prototyping, interaction and responsive design, and digital branding.</p>
+              <button id="buttonn"class="Button"> Download Resume</button>
+            </div>
+          </div>
+          </section>
+<!--  My UX Skills section coded using CSS flex -->
+        <section class="mySkills">
+                      <h1 id="skills" class="skills"> Skills and Knowledge</h1>
+            <div class="flex-container">
+                <div class="flexchildren"> <h4>Skills</h4>
+                    <p>User Research
+                        Qualitative Analysis
+                        Heuristic Evaluation
+                        Wireframing Iteration
+                        Fidelity Prototyping
+                        Responsive Design
+                        Branding Design and Style Guides
+                        </p> </div>
+                <div class="flexchildren"> <h4>Languages</h4>
+                    <p> HTML
+                        CSS
+                        Javascript</p>
+                </div>
+                <div class="flexchildren"><h4>Tools</h4>
+                    <p>Visual Studio Code 
+                        Adobe Suite
+                        Invision 
+                        Figma
+                        Miro</p>
+                </div>
+            </div>
+        </section>
+<!-- My Work Section Constructed using CSS Grid -->
+        <section>
+            <h1 id="work" class="work">My Work</h1>
+            <div class="pics">
+                <div> <img src="Images/bringme.png" width="200" height="200" > </div>
+            <div> <img src="Images/interior.png" width="200" height="200"></div>
+            <div> <img src="Images/seeds.png" width="200" height="200"> </div>
+            </div>
+        </section>
+        <section class="myWork">
+            <div class="workGrid">
+                <div class="workchildren">
+                    <h4>BringMe Travel</h4>
+                    <p> A responsive packing list generator, allowing users to better prepare for travel.</p>
+                    <button id="b1" type="button"> More </button>
+                </div>
+                <div class="workchildren">
+                    <h4>Department of the Interior</h4>
+                    <p> Redesign of government webpage to increase traffic to government run nature  programs and resources.</p>
+                    <button id="b2" type="button"> More </button>
+                </div>
+                <div class="workchildren">
+                    <h4>SEEDS Feeds</h4>
+                    <p> Custom made volunteer portal to better align stakeholder priorities with user’s goals.</p>
+                    <button id="b3" type="button"> More </button>
+                </div>
+            </div>
+        </section>
+    <footer class="footer">
+      <b class="email"> Let's Connect: Clianx037@gmail.com </b>
+      <ul class="linkss">
+        <img src="Images/dribble.png" width="30" height="30">
+        <img src="Images/linkedin.png" width="30" height="30">
+      </ul>
+      <b> © Christine Lian 2021</b>
+    </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#buttonn").mouseenter(function(){
+        $("#buttonn").css("background-color", "purple");
+        $("#buttonn").css("color", "white");
+      });
+      $("#buttonn").mouseleave(function(){
+        $("#buttonn").css("background-color", "pink");
+      });
+      $("#b1").mouseenter(function(){
+        $("#b1").css("background-color", "purple");
+        $("#b1").css("color", "white");
+      });
+      $("#b1").mouseleave(function(){
+        $("#b1").css("background-color", "pink");
+      });
+      $("#b2").mouseenter(function(){
+        $("#b2").css("background-color", "purple");
+        $("#b2").css("color", "white");
+      });
+      $("#b2").mouseleave(function(){
+        $("#b2").css("background-color", "pink");
+      });
+      $("#b3").mouseenter(function(){
+        $("#b3").css("background-color", "purple");
+        $("#b3").css("color", "white");
+      });
+      $("#b3").mouseleave(function(){
+        $("#b3").css("background-color", "pink");
+      });
+    });
+    </script>
+</html>
+</body>
+</html>
