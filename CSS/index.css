@@ -1,4 +1,26 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+b {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* Nav Bar */
 .title {
   margin-left: 5%;
