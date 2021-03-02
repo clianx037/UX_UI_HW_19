@@ -1,4 +1,4 @@
-<<<<<<< HEAD:css/index.css
+
 /* Nav Bar */
 .title {
   margin-left: 5%;
@@ -186,7 +186,6 @@ button {
     .workchildren {
         width: 100%;
     }
-=======
 /* Nav Bar */
 .title {
   margin-left: 5%;
@@ -371,5 +370,187 @@ button {
     .workchildren {
         width: 100%;
     }
->>>>>>> 232661ad63e6ba4405006fd7a462d36665a72370:CSS/index.css
+/* Nav Bar */
+.title {
+  margin-left: 5%;
+  width: 23%;
+  padding: 10%;
+  display: inline-block;
+}
+
+  img {
+    max-width: 100%
+  }
+  
+  .image {
+    flex-basis: 40%
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .column {
+      float: left;
+      padding: 5px;
+  }
+
+  .header{
+    margin-bottom: 10px;
+    background-color: pink;
+    padding-bottom: 3%;
+  }
+
+  .ptext {
+    width: 80%;
+    margin: 10px;
+  }
+.inlineblock {
+    display:inline-block;
+    vertical-align: middle;
+    margin-inline-start: 1%;
+}
+.logoo {
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.name {
+    display:inline-block;
+    vertical-align:top;
+}
+nav {
+    width: 100%;
+    padding: 1%;
+    margin-inline-start: 10%;
+}
+ul {
+    list-style-type: none;
+    width: 90%;
+    padding: 1%;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding: 1%;
+  color:white; 
+}
+
+.row {
+  margin-left: 5%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+/* Hero Image */
+.herolmg {
+border-radius: 25px;
+margin: 10px;
+}
+
+button {
+    background-color: pink;
+    color: black;
+    border: pink;
+    border-radius: 25px;
+}
+/* Skills */
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-container > div {
+    width: 33%;
+    margin-left: 5%;
+    margin-right: 5.5%
+  }
+
+  .skills {
+      padding-top: 7%;
+      margin-left: 40%;
+      margin-bottom: -1px;
+  }
+
+  .work {
+    margin-left: 44%;
+}
+
+  .workGrid {
+      display: flex;
+  }
+
+  .workGrid > div {
+    margin-left: 5%;
+    margin-right: 5.5%
+  }
+
+  .workchildren {
+    width: 33%;
+  }
+
+  .pics {
+      display: flex;
+  }
+
+  .pics > div {
+    display: flex;
+    padding-inline: 8%;
+    justify-content: center;
+  }
+/* Footer */
+
+.footer {
+    position: absolute;
+    bottom: -130%;
+    width: 100%;
+    color: pink;
+    text-align: center;
+    padding-bottom: 30px;
+    height:auto;
  }
+
+ .email {
+   color:black;
+ }
+
+ .linkss{
+  width: 100%;
+  justify-content: center;
+ }
+
+ @media only screen and (max-width: 600) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .flexchildren {
+        width: 100%;
+    }
+    .workGrid {
+        display: flex;
+        flex-direction: column;
+    }
+    .workchildren {
+        width: 100%;
+    }
