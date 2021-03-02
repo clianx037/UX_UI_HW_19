@@ -518,6 +518,11 @@ button {
     padding-inline: 8%;
     justify-content: center;
   }
+
+a:link {
+  color: white;
+}
+
 /* Footer */
 
 .footer {
