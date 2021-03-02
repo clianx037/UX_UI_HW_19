@@ -522,11 +522,11 @@ button {
 
 .footer {
     position: absolute;
-    bottom: -130%;
+
     width: 100%;
     color: pink;
     text-align: center;
-    padding-bottom: 30px;
+    padding-top: 5%;
     height:auto;
  }
 
